@@ -1,0 +1,18 @@
+GraphLib: Graph Analysis
+========================
+
+This project is self contained
+
+To build the project with object construction/destruction
+tracking GRAPH_ENABLE_DEBUG flag.
+
+External Utilities Included within the project:
+
+	- GoogleTestLib: Unit testing
+
+The library can generate CSV, GML and DOT files from Graphs.
+DOT is much more recommended because it handles clusters much 
+better.
+
+Graphviz is recommended to plot/render the output graph (DOT/GML)
+Command: `$sfdp -x -Goverlap=scale -Tsvg file.dot > output.svg`
